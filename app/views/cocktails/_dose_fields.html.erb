@@ -1,0 +1,5 @@
+<div class="nested-fields">
+  <%= f.input :ingredient, as: :select, collection: Ingredient.all.order(:name) %>
+
+  <%= f.input :description %>
+</div>
